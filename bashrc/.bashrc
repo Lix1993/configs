@@ -11,8 +11,8 @@ export PS1
 
 # ls alias
 alias ls='ls --sort=extension --color=auto'
-alias l='ls -lh'
-alias ll='ls -Alhtr'
+alias ll='ls -lhAtr'
+alias l='ls -lhtr'
 
 # Quickly load bashrc
 alias gogo='source ~/.bashrc'
