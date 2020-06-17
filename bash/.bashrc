@@ -11,4 +11,5 @@ alias less='less -S'
 # Quickly load bashrc
 alias gogo='source ~/.bashrc'
 
-export PATH="/home/lix/miniconda3/bin:$PATH"
+. ~/miniconda3/etc/profile.d/conda.sh
+
