@@ -5,11 +5,11 @@ export PS1
 
 # alias
 alias ls='ls --sort=extension --color=auto'
-alias ll='ls -lhAtr'
+alias ll='ls -l'
 alias l='ls -lhtr'
 alias less='less -S'
 # Quickly load bashrc
 alias gogo='source ~/.bashrc'
 
-. ~/miniconda3/etc/profile.d/conda.sh
-
+__conda_setup="$(~/miniconda3/bin/conda 'shell.bash' 'hook' 2> /dev/null)"
+eval "$__conda_setup"
