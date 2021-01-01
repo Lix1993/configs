@@ -1,0 +1,9 @@
+{
+    "server":"0.0.0.0",
+    "mode":"tcp_and_udp",
+    "server_port":21081,
+    "local_port":1080,
+    "password":"qwer1234",
+    "timeout":60,
+    "method":"chacha20-ietf-poly1305"
+}
