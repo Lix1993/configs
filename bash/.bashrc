@@ -20,7 +20,8 @@ shopt -s checkwinsize
 PS1='\[\e[33;40m\]\d \t \u@\H\n\[\e[36;1m\]\w\[\e[0m\]\n'
 export PS1
 
-
+# path
+export PATH=$HOME/bin/:$PATH
 
 # some more ls aliases
 alias ls='ls --sort=extension --color=auto'
